@@ -13,4 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="splashedScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--        <item name="android:windowBackground">@drawable/splash</item>-->
+        <item name="android:windowSplashScreenBackground" tools:ignore="NewApi">@color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:ignore="NewApi">@drawable/ic_spim</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:ignore="NewApi">3000</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/black</item>
+
+    </style>
 </resources>
